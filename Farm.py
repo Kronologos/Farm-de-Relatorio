@@ -61,7 +61,7 @@ class Farm():
     def faz(self,linhas=1):
         print(r'\begin{align}'+'\n')
         print(self.substitui_ai_pra_nos(linhas=linhas))
-        print(r'end{align}')
+        print(r'\end{align}')
         
 
 
